@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    transition: background-color 0.3s;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #ff6347; /* Tomato color on hover */
+}
+
+.content {
+    padding: 60px 20px;
+}
+
+.content p {
+	text-align: left;
+}
+
+section {
+    padding: 100px 100px;
+    border-bottom: 1px solid #ccc;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+section h1 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+#home {
+    height: 680px;
+    background-image: url("D:/Prodigy Weekly Tasks/images only/1home.jpg");
+}
+
+#about {
+    height: 680px;
+    background-image: url("D:/Prodigy Weekly Tasks/images only/222.jpg");
+}
+
+#Internships {
+    height: 680px;
+    background-image: url("D:/Prodigy Weekly Tasks/images only/22.jpg");
+}
+
+
+#contact {
+    height: 680px;
+    background-image: url("D:/Prodigy Weekly Tasks/images only/23.jpg");
+}
