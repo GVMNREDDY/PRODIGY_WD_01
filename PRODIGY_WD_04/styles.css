@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://static.vecteezy.com/system/resources/previews/026/584/347/original/design-banner-frame-background-colorful-poster-background-illustration-free-vector.jpg') no-repeat center center fixed;
+	backgroung-size:cover;
+	background-attachment:fixed;	
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: sticky; 
+    top: 0; 
+    z-index: 1000;
+	transition: transform 0.3s ease-in-out;
+    transform: translateY(0);
+}
+
+header.hidden {
+    transform: translateY(-100%);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+	margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+	color:pink;
+}
+
+section {
+	background-color: rgba(206, 159, 4, 0.4);
+    padding: 2rem;
+    text-align: center;
+	margin-top: 4rem;
+}
+
+.intro {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.intro img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin: 1rem 0;
+}
+
+.project {
+	background-color: rgba(206, 159, 4, 0.4);
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+	 z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(0);
+}
+footer.hidden {
+    transform: translateY(100%);
+}
+
+@media (max-width: 600px) {
+    .intro img {
+        max-width: 100px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+}
+
+.thcontent{
+	width:50%;
+	height:20%;
+	text-align:left;
+	border:1px solid;
+	display:inline-block;
+}
